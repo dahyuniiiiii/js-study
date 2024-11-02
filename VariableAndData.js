@@ -7,14 +7,14 @@ console.log(a,b)
 console.log(a+b)
 
 console.log(1 / 0);  
-console.log(7.5 % 2); // 나머지연산자, 몫3 나머지1.5
-// !=는 느슨한 불일치 연산자로, 값이 다르면 true를 반환
+console.log(7.5 % 2); // 나머지연산자 사용, 몫3 나머지1.5
+// !=는 값이 다르면 true를 반환
 console.log(5 != 5.0);  
-// !==는 엄격한 불일치 연산자로, 값과 자료형이 모두 다를 때 true를 반환  
+// !==는 값과 자료형이 모두 다를 때 true 반환
 console.log(5 !== 5.0);    
-onsole.log(true || true); // OR 연산자, 하나의 값이라도 true이면 true를 반환
+console.log(true || true); // OR 연산자, 하나라도 true이면 true 반환
 console.log(true || false);       
-console.log(true && true); // AND 연산자, 하나의 값이라도 false이면 false를 반환        
+console.log(true && true); // AND 연산자, 모두 true여야 true 반환        
 console.log(true && false);       
-console.log(!true); // NOT 연산자, 반대 값을 반환           
-console.log(!false);         
+console.log(!true); // NOT 연산자, 반대 값 반환           
+console.log(!false);
