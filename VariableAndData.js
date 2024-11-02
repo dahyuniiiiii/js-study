@@ -4,7 +4,6 @@ let temp = a
 a = b // 변수 a와 b가 이미 선언되어 있으므로, 다시 let을 사용할 필요가 없음
 b = temp
 console.log(a,b)
-console.log(a+b)
 
 console.log(1 / 0);  
 console.log(7.5 % 2); // 나머지연산자 사용, 몫3 나머지1.5
