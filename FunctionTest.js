@@ -1,24 +1,16 @@
-function greet(name) {
-    console.log("안녕 내 이름은",name,"야")
-    return name
+//<문제1>
+//"안녕 내 이름은 제시카야"라는 문장을 프린트하는 함수 'greet’를 만드시오
+function greet(){
+    console.log("안녕 내 이름은 제시카야")
 }
 
-// function meetAt() {
-
-//     if (date) {
-//         return `${year}/${month}/${date}`;
-//     }
-//     if (month) {
-//         return `${year}년 ${month}월`;
-//     }
-//     if (year) {
-//         return `${year}년`;
-//     }
-// }
+//<문제2>
+//이름을 매개변수로 전달받아 다양한 이름을 프린트 할 수 있게 함수를 수정하시오 예) “안녕 내 이름은 에밀리야”, “안녕 내 이름은 할리야”
+function greet(name) {
+    console.log(`안녕 내 이름은 ${name}야`); //${}을 사용하여 해당 변수 문자열 내에 자동으로 삽입
+    return name; //단순히 콘솔에 출력만 하는 게 아닌 호출된 곳에 값 반환
+}
+//<문제3> 매개변수로 전달받은 이름을 반환하게 함수를 수정하시오
 greet("제시카");
 greet("에밀리");
 greet("할리");
-
-meetAt(2022);
-meetAt(2032, 3);
-meetAt(1987, 10, 28); 
