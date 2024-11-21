@@ -1,5 +1,5 @@
 body{
-    margin:0;
+    margin:0; /* 기본 바디 마진 8 되어있음*/
     background-image: url("../image/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yMThiYXRjaDYtbXludC0yNC5qcGc.webp");
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,4 +9,38 @@ body{
     background-color: white;
     min-height: 100vh;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.task-area{
+    border: 1px solid lightgray; /* 그림 */
+}
+
+.task-taps{
+    display: flex;
+    border-bottom: 1px solid lightgray ; /* 바텀에 줄 하나 그음 */ 
+    position: relative;
+}
+
+.task-taps div{
+    padding: 1em; /* 글씨 간격 띄우기 */
+}
+
+#under-line{ /* 이 아이디로 자바스크립트에서 쓰기위함 */
+    height:4px;
+    background-color: pink;
+    position: absolute;
+    width: 50px;
+    left: 0px;
+    top: 50px; 
+    padding: 0px;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;  /* 서로 양 끝으로 보냄 */
+    padding: 1em;  /* 끝 공간 생김 */
+}
+
+.task-done{
+    text-decoration: line-through;
 }
